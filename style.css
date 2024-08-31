@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+.navbar{
+    height: 15vh;
+    width: 100%;
+    background-color: #ffd200;
+    display: flex !important;
+    justify-content: center !important;
+}
+.uppernav{
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav1 img{
+width: 100px;
+}
+.nav2 ul li a{
+    color: #000;
+    font-size: 12px;
+    font-weight: bold ;
+}
+.bigimg {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background: url(./image/banner.jpg); */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+}
+.bigimg img{
+    height: 85vh;
+    /* opacity: 0.9; */
+}
+.fstimg img{
+    
+    height: 58vh;
+}
+.fstbx{
+    
+    display: flex !important;
+    justify-content: center !important;
+    
+}
+.fstparg{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center !important;
+    /* flex-direction: column; */
+    /* margin-left: 250px; */
+}
+.fstparg p{
+    text-align: center;
+/* width: 602px; */
+font-size: 14px;
+margin-top: 20px;
+line-height: 25px;
+font-family: 'Poppins', sans-serif;
+
+}
+.fstst{
+
+    display: flex;
+    flex-direction: column;
+}
+.fstparg1{
+    /* border: 2px solid; */
+}
+
+.fstparg1 p{
+    text-align: center;
+    /* width: 630px; */
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    /* margin-left: 250px; */
+    
+
+}
+.fsta{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+
+}
+.fsta button{
+    color: #7d2b24;
+    border-bottom: 1px solid !important;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+}
+.cards{
+    /* display: flex;         */
+    /* border: 1px solid; */
+}
+.card1{
+    /* border: 1px solid; */
+}
+.card1 img{
+ /* height: 25vh; */
+ width: 15vw;
+ /* max-width: 100%; */
+ border: none;
+ vertical-align: middle;
+ transition: 0.6s;
+}
+.card1 img:hover{
+    width:15.9vw;
+}
+.card1  h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #741415;
+}
+.card1 p{
+    font-size: 14px;
+    text-align: center;
+    margin-left: -40px;
+} 
+
+/* kjsdkjdsj */
+
